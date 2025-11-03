@@ -1,0 +1,67 @@
+.contact-container {
+  background-color: #ffffff;
+  width: 320px;
+  padding: 25px;
+   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+  text-align: center;
+  margin: 40px auto;
+  font-family: "Poppins", sans-serif;
+}
+
+.form-title {
+  font-weight: 600;
+  color: #000;
+  margin-bottom: 12px;
+}
+
+.phone-btn {
+  background-color: #295d00 !important;
+  border: none !important;
+  font-weight: 500;
+  padding: 8px 20px;
+}
+
+.phone-btn:hover {
+  background-color: #204a00 !important;
+}
+
+.contact-form{
+  border-radius: 8px !important;
+  box-shadow: 0 6px 25px rgba(0, 0, 0, 0.12);
+ 
+}
+ 
+ 
+.submit-btn {
+  background-color: #295d00 !important;
+  border: none !important;
+  border-radius: 10px !important;
+  width: 100%;
+  padding: 10px;
+  font-weight: 500;
+  margin-top: 10px;
+}
+
+.submit-btn:hover {
+  background-color: #1f4500 !important;
+}
+ .contact-fixed {
+  position: fixed;
+  top: -36px;;                /* adjust distance from top */
+  right: 1%;              /* adjust distance from right edge */
+  z-index: 1999;            /* ensures it stays on top */
+}
+
+/* Responsive: Hide or reposition on smaller devices */
+@media (max-width: 992px) {
+  .contact-fixed {
+    position: static;       /* becomes normal flow on mobile */
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+  }
+
+  .contact-container {
+    width: 90%;
+  }
+}
