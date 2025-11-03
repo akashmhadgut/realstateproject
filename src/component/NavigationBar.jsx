@@ -25,7 +25,7 @@ function NavigationBar() {
 
             <Offcanvas.Header closeButton>
               <Offcanvas.Title id="offcanvasNavbarLabel">
-            <img src="C:\FullStack__New\Project\Minitasks\realstateproject\src\assets\image.png" width="100" alt="LODHA" />
+            <img src="/assets/image.png" width="100" alt="LODHA" />
               </Offcanvas.Title>
             </Offcanvas.Header>
           
