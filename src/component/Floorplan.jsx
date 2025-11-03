@@ -3,8 +3,8 @@ import Card from "react-bootstrap/Card";
 
 function Floorplan({ onOpenForm }) {
   const fplans = [
-    { img: "./src/assets/3-BHK-unit-plan.jpg", type: "3 BHK Unit Plan" },
-    { img: "./src/assets/3-BHK-unit-plan.jpg", type: "3.5 BHK Unit Plan" },
+    { img: "src/assets/3-BHK-unit-plan.jpg", type: "3 BHK Unit Plan" },
+    { img: "src/assets/3-BHK-unit-plan.jpg", type: "3.5 BHK Unit Plan" },
     { img: "src/assets/3-BHK-unit-plan.jpg", type: "4 BHK Unit Plan" },
     { img: "src/assets/3-BHK-unit-plan.jpg", type: "Townhouse" },
     { img: "src/assets/3-BHK-unit-plan.jpg", type: "Penthouse Lower" },
