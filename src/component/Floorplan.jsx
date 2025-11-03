@@ -30,7 +30,7 @@ function Floorplan({ onOpenForm }) {
         </p>
 
         {/* Grid of Cards */}
-        <div className="grid grid-cols-1 me-5 sm:grid-cols-2 md:grid-cols-3 gap-3 me-3 sm:me-5">
+        <div className="grid grid-cols-1 me-5 sm:grid-cols-2 md:grid-cols-3 gap-3  sm:me-5">
           {fplans.map((plan, index) => (
             <div
               key={index}
