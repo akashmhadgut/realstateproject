@@ -12,7 +12,7 @@ function NavigationBar() {
         <Container>
           {/* Brand Logo */}
           <Navbar.Brand href="#home" className="mt-2 mb-2 me-56">
-            <img src="src/assets/image.png" width="100" alt="LODHA" />
+            <img src="/src/assets/image.png" width="100" alt="LODHA" />
           </Navbar.Brand>
 
           {/* Toggle Button (for mobile) */}
