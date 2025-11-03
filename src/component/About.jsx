@@ -17,14 +17,14 @@ function About({ onOpenForm }) {
   <div className="flex flex-col sm:flex-row justify-center items-center gap-10 mt-8">
     {/* Agent MahaRERA */}
     <div className="flex flex-col items-center">
-      <img src="src/assets/qrcodeagent.jpeg" alt="Agent MahaRERA" className="w-40 h-40 object-contain" />
+      <img src="/qrcodeagent.jpeg" alt="Agent MahaRERA" className="w-40 h-40 object-contain" />
       <h6 className="font-bold mt-3">Agent MahaRERA</h6>
       <p>A031262502070</p>
     </div>
 
     {/* Project MahaRERA */}
     <div className="flex flex-col items-center">
-      <img src="src/assets/qrcodeproject.webp" alt="Project MahaRERA" className="w-40 h-40 object-contain" />
+      <img src="/qrcodeproject.webp" alt="Project MahaRERA" className="w-40 h-40 object-contain" />
       <h6 className="font-bold mt-3">Project MahaRERA</h6>
       <p>P52100052703 | P52100054436</p>
     </div>

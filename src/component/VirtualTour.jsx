@@ -32,7 +32,7 @@ function VirtualTour({ onOpenForm }) {
     <div className="w-10/12 relative rounded-xl overflow-hidden bg-gray-100 group h-[400px]">
       {/* Image (shrinks on hover) */}
       <img
-        src="src/assets/virtualtour.jpg"
+        src="/virtualtour.jpg"
         alt="Virtual Tour"
         className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-95"
       />

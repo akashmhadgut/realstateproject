@@ -18,7 +18,7 @@ function NewLaunch({ onOpenForm }) {
           {/* Image */}
           <div className="w-full mb-5">
             <img
-              src="src/assets/newlaunch.webp"
+              src="/newlaunch.webp"
               alt="launchimg"
               className=""
             />

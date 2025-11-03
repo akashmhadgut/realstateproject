@@ -47,7 +47,7 @@ function Location({ onOpenForm }) {
         <div className="bg-white rounded-xl shadow-md p-4 w-full md:w-1/2 transition-transform duration-300 hover:-translate-y-2 flex flex-col items-center">
           <h2 className="text-lg font-semibold mb-3">Location Details</h2>
           <img
-            src="src/assets/locationimg.webp"
+            src="/locationimg.webp"
             alt="Location Details"
             className="rounded-lg h-64 w-full object-cover mb-4"
           />

@@ -65,7 +65,7 @@ function PricingPlans({ onOpenForm }) {
   {/* Left Image */}
   <div className="w-full md:w-1/2 flex justify-center mb-6 md:mb-0">
     <img
-      src="src/assets/mapimg.webp"
+      src="/mapimg.webp"
       alt="Costing Sheet"
       className="rounded-lg shadow-sm w-[90%] sm:w-80 md:w-96 object-cover"
     />

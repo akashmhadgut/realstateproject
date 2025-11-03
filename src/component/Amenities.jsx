@@ -46,7 +46,7 @@ function Amenities({ onOpenForm }) {
 
             <SwiperSlide>
               <img
-                src="src/assets/animitiesslide1.jpg"
+                src="/animitiesslide1.jpg"
                 alt="Slide 1"
                 className="shadow-lg h-auto w-full object-cover transition-transform duration-300 hover:-translate-y-2"
               />
@@ -54,7 +54,7 @@ function Amenities({ onOpenForm }) {
 
             <SwiperSlide>
               <img
-                src="src/assets/animitiesslide2.jpeg"
+                src="/animitiesslide2.jpeg"
                 alt="Slide 2"
                 className="shadow-lg h-auto w-full object-cover transition-transform duration-300 hover:-translate-y-2"
               />
@@ -62,7 +62,7 @@ function Amenities({ onOpenForm }) {
 
             <SwiperSlide>
               <img
-                src="src/assets/animitiesslide3.jpeg"
+                src="/animitiesslide3.jpeg"
                 alt="Slide 3"
                 className="shadow-lg h-auto w-full object-cover transition-transform duration-300 hover:-translate-y-2"
               />
@@ -70,7 +70,7 @@ function Amenities({ onOpenForm }) {
 
             <SwiperSlide>
               <img
-                src="src/assets/animitiesslide4.jpg"
+                src="/animitiesslide4.jpg"
                 alt="Slide 4"
                 className="shadow-lg h-auto w-full object-cover transition-transform duration-300 hover:-translate-y-2"
               />

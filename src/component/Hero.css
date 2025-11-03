@@ -7,7 +7,7 @@
 
 /* Background image */
 .hero-background {
-  background-image: url('/src/assets/heroimg.png');
+  background-image: url('/heroimg.png');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;

@@ -22,7 +22,7 @@ function ContactForm({ onClose }) {   // <-- Receive Prop
         <p className="text-center text-gray-600 text-base mb-4">Avail Pre-Launch Benefits Now</p>
 
         <div className="flex justify-center gap-2 mb-3">
-            <img src="src/assets/contactformimg.png" alt="" className='h-20'/>
+            <img src="/contactformimg.png" alt="" className='h-20'/>
         </div>
 
         <div className="text-center">
