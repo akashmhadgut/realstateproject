@@ -39,8 +39,7 @@
   }
 
   .hero-background {
-  
-    height: 100vh; /* full screen background */
+     min-height: 100vh;
   }
 
   .hero-card-container {
