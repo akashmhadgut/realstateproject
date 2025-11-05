@@ -19,50 +19,55 @@ function VirtualTour({ onOpenForm }) {
 
     ]
   return (
-   <div className=" mt-8 " >
-      <div className="w-full sm:w-[90%] md:w-[80%] lg:w-[78%] bg-white rounded-lg  p-6">
-        {/* Title */}
-        <div className="mb-6">
-          <h1 className="text-3xl font-bold mb-2">Virtual Tour Request</h1>
-          <div className="h-1 w-28 bg-green-800 rounded"></div>
-        </div>
-        <p className="text-gray-700 text-sm sm:text-base md:text-lg mb-6">
-        Experience Lodha New Launch from the comfort of your home
-        </p>
-    <div className="w-10/12 relative rounded-xl overflow-hidden bg-gray-100 group h-[400px]">
-      {/* Image (shrinks on hover) */}
-      <img
-        src="/virtualtour.jpg"
-        alt="Virtual Tour"
-        className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-95"
-      />
+  <div className="mt-8">
+    <div className="w-full max-w-[1000px] me-auto bg-white rounded-lg p-4 sm:p-6">
 
-      {/* Overlay content */}
-      <div onClick={onOpenForm} className="absolute inset-0 bg-black/40 flex flex-col items-center justify-center transition-all duration-500">
-        <div className="w-20 h-20 rounded-full bg-white/90 flex items-center justify-center shadow-lg transition-transform duration-300 group-hover:scale-110">
-          <FaPlay className="text-green-800 text-2xl ml-1" onClick={onOpenForm}/>
-        </div>
-        <p className="text-white text-lg font-bold mt-3">Virtual Tour</p>
+      {/* Title */}
+      <div className="mb-6">
+        <h1 className="text-3xl font-bold mb-2">Virtual Tour Request</h1>
+        <div className="h-1 w-28 bg-green-800 rounded"></div>
       </div>
-    </div>
 
-  <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 mt-5 me-5 ">
-  {features.map((key, index) => (
-    <div
-      key={index}
-      className="bg-slate-100  flex flex-col justify-between shadow-sm hover:-translate-y-1.5 transition-all h-24"
-    >
-      <h4 className="text-gray-950 font-bold text-lg mt-3 ms-3">{key.title}</h4>
-      <p className="text-sm ms-3">{key.desc}</p>
-    </div>
-  ))}
-</div>
+      <p className="text-gray-700 text-sm sm:text-base md:text-lg mb-6">
+        Experience Lodha New Launch from the comfort of your home
+      </p>
 
+      {/* Virtual Tour Image / Video Preview */}
+      <div className="relative rounded-xl overflow-hidden bg-gray-100 group h-[280px] sm:h-[350px] lg:h-[400px] w-full mx-auto">
+        <img
+          src="/virtualtour.jpg"
+          alt="Virtual Tour"
+          className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-95"
+        />
 
+        <div
+          onClick={onOpenForm}
+          className="absolute inset-0 bg-black/40 flex flex-col items-center justify-center cursor-pointer transition"
+        >
+          <div className="w-16 h-16 sm:w-20 sm:h-20 rounded-full bg-white/90 flex items-center justify-center shadow-lg transition-transform duration-300 group-hover:scale-110">
+            <FaPlay className="text-green-800 text-xl sm:text-2xl ml-1" />
+          </div>
+          <p className="text-white text-base sm:text-lg font-bold mt-3">Start Virtual Tour</p>
+        </div>
+      </div>
+
+      {/* Feature Cards */}
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 mt-8">
+        {features.map((item, index) => (
+          <div
+            key={index}
+            className="bg-slate-100 rounded-lg p-4 shadow-sm hover:-translate-y-1 transition"
+          >
+            <h4 className="text-gray-900 font-bold text-lg">{item.title}</h4>
+            <p className="text-gray-700 text-sm mt-1">{item.desc}</p>
+          </div>
+        ))}
+      </div>
 
     </div>
-    </div>
-  )
+  </div>
+)
+
 }
 
 export default VirtualTour
