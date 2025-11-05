@@ -4,7 +4,8 @@ import { TelephoneFill, Whatsapp } from 'react-bootstrap-icons'
 
 function ContactForm({ onClose }) {   // <-- Receive Prop
   return (
-    <div className="relative  bg-white rounded-lg overflow-y-auto max-h-[100vh] w-3/6 " >
+    <div className="relative bg-white rounded-lg overflow-y-auto max-h-[100vh]
+     w-full sm:w-[90%] md:w-[75%] lg:w-[70%] xl:w-[45%] mx-auto p-4 " >
 
      <div className='gap-3'>
 
@@ -71,8 +72,8 @@ function ContactForm({ onClose }) {   // <-- Receive Prop
           </Form.Group>
         </Form>
         <div className="text-center mt-4">
-          <a href="https://wa.me/917757865552" target="_blank" className=" no-underline shimmer bg-[#295d00] mt-6 text-white py-2 px-4 rounded-md inline-flex items-center gap-2 text-sm font-medium h-14 mb-10">
-            <img src="src/assets/WhatsApp.svg" className='w-8 me-2' alt="" />
+          <a href="https://wa.me/917757865552" target="_blank" className=" no-underline shimmer bg-[#295d00] mt-6 text-center text-white py-2 px-4 rounded-md inline-flex items-center gap-2 text-sm font-medium h-14 mb-10 ">
+            <img src="/WhatsApp.svg" className='w-8 me-2' alt="" />
              WhatsApp Us Now →
           </a>
         </div>

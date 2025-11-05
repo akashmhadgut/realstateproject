@@ -13,7 +13,7 @@ function Floorplan({ onOpenForm }) {
   ];
 
   return (
-    <Card className="w-full sm:w-[90%] md:w-[80%] lg:w-[78%] mt-10 border-white bg-white me-auto">
+    <Card className="w-full sm:w-[90%] md:w-[80%] lg:w-[78%] mt-10 border-white bg-white me-auto" id="floor">
       <Card.Body className="ms-2 ">
         {/* Title */}
         <div className="items-center gap-1 mb-8  md:text-left me-auto">

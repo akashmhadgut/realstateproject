@@ -16,7 +16,7 @@ function Location({ onOpenForm }) {
   ];
 
   return (
-    <div className="mt-8">
+    <div className="mt-8" id='location'>
       <div className="w-full max-w-[1100px] me-auto bg-white rounded-lg p-4 sm:p-6">
 
         {/* Title */}

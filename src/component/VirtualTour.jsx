@@ -19,7 +19,7 @@ function VirtualTour({ onOpenForm }) {
 
     ]
   return (
-  <div className="mt-8">
+  <div className="mt-8" id='visit'>
     <div className="w-full max-w-[1000px] me-auto bg-white rounded-lg p-4 sm:p-6">
 
       {/* Title */}

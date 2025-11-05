@@ -9,7 +9,7 @@ function PricingPlans({ onOpenForm }) {
   ];
 
   return (
-    <div className=" mt-8 ">
+    <div className=" mt-8 " id="price">
       <div className="w-full sm:w-[90%] md:w-[80%] lg:w-[77%] bg-white rounded-lg  p-6">
         {/* Title */}
         <div className="mb-6">

@@ -4,7 +4,7 @@ import './Hero.css'
 
 function Hero({ onOpenForm }) {
   return (
-    <div className="hero-section" id="hero">
+    <div className="hero-section" id="home">
 
       {/* ✅ Background section */}
       <div className="hero-background"></div>

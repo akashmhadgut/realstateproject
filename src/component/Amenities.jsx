@@ -7,7 +7,7 @@ import 'swiper/css/pagination';
 
 function Amenities({ onOpenForm }) {
   return (
-    <div className="mt-8">
+    <div className="mt-8" id='amenities'>
       <div className="w-full md:w-3/4 bg-white rounded-lg  p-6">
         {/* Title */}
         <div className="mb-6">
